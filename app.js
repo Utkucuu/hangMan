@@ -1,4 +1,6 @@
 
+/** selectors */
+
 const timer = document.getElementById("timer")
 const trueIcon = document.getElementById("trueIcon")
 const falseIcon = document.getElementById("falseIcon")

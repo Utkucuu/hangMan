@@ -1,0 +1,200 @@
+#leftPanel {
+    height: 758px;
+    border-right: 1px solid black;
+
+}
+
+.btn {
+    max-width: 10rem;
+    font-size: 40px;
+    margin: 0 auto;
+}
+
+#trueIcon {
+    color: greenyellow;
+    font-size: 5rem;
+}
+
+
+#falseIcon {
+    color: red;
+    font-size: 5rem;
+}
+
+#timer {
+    margin: 0 auto;
+    width: 7rem;
+    font-size: 2rem;
+    background-color: black;
+    color: azure;
+}
+
+#manArea {
+    width: 400px;
+    height: 300px;
+    border: 0px solid;
+    margin: 0 auto;
+    margin-left: 22rem;
+}
+
+
+
+/*Right Pannel*/
+
+
+/*Men and tree*/
+
+#manArea {
+    position: relative;
+    bottom: 80px;
+
+}
+
+#treeFooter {
+    width: 10rem;
+    border-bottom: solid 1rem black;
+    position: absolute;
+    bottom: 20px;
+}
+
+#treeBody {
+    width: 5rem;
+    height: 14rem;
+    border-left: solid 0.5rem black;
+    position: absolute;
+    left: 90px;
+    bottom: 20px;
+}
+
+#treeHead {
+    width: 9rem;
+    border-bottom: solid 0.5rem black;
+    position: absolute;
+    left: 90px;
+    top: 49px;
+}
+
+#treeRope {
+    width: 0.3rem;
+    height: 2rem;
+    background: black;
+    position: absolute;
+    left: 181px;
+    top: 53px;
+}
+
+#manHead {
+    width: 45px;
+    height: 45px;
+    border: solid 7px black;
+    border-radius: 22px;
+    position: absolute;
+    top: 83px;
+    left: 161px;
+
+}
+
+#manBody {
+    width: 7px;
+    height: 65px;
+    background-color: black;
+    position: absolute;
+    left: 180px;
+    top: 128px;
+
+}
+
+#manLeftArm {
+    width: 7px;
+    height: 45px;
+    background-color: black;
+    position: absolute;
+    left: 161px;
+    top: 125px;
+    transform: rotate(40deg);
+    border-radius: 3px;
+}
+
+#manRightArm {
+    width: 7px;
+    height: 45px;
+    background-color: black;
+    position: absolute;
+    left: 198px;
+    top: 125px;
+    transform: rotate(-40deg);
+    border-radius: 3px;
+}
+
+#manLeftFoot {
+    width: 7px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 161px;
+    top: 180px;
+    transform: rotate(45deg);
+    border-radius: 3px;
+}
+
+#manRightFoot {
+    width: 7px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 199px;
+    top: 180px;
+    transform: rotate(-45deg);
+    border-radius: 3px;
+}
+
+/*letters Scope */
+
+#wordArea {
+    position: relative;
+    bottom: 30px;
+}
+
+.letter {
+    max-width: 5rem;
+    border-bottom: 8px solid black;
+    margin: 0 auto;
+    font-family: Helvetica, arial, sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+
+}
+
+/*letter buttons*/
+
+.boardButtons {
+
+    transition: all.10s;
+    background: #7d9faa;
+    border-radius: 10px;
+    box-shadow: 0 10px 0 0 #42646f, 0 15px 0 10px #001a24;
+    color: #fff;
+    display: block;
+    font-size: 24px;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 3px 0 #42646f;
+    width: 40px;
+    z-index: 1;
+    font-family: Helvetica, arial, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+
+.boardButtons:active {
+    background: #42646f;
+    box-shadow: 0 5px 0 2px #001a24;
+    margin-bottom: 0;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 2px;
+
+}

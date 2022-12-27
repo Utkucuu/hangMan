@@ -198,3 +198,65 @@
     padding: 2px;
 
 }
+
+
+
+
+@media (max-width: 992px) {
+    #manArea{
+        margin-left: 50px;
+    }
+
+    /* #manArea{
+        zoom: 75%;
+    } */
+
+    #manArea , #wordArea , #keyboardArea , #trueIcon, #falseIcon, #reset , #timer, #start{
+        zoom: 70%;
+    }
+    
+}
+
+
+@media (max-width: 768px) {
+    #manArea{
+        margin-left: 50px;
+    }
+
+    #manArea , #wordArea , #keyboardArea , #trueIcon, #falseIcon, #reset , #timer, #start {
+        zoom: 55%;
+    }
+    
+}
+
+@media (max-width: 512px) {
+    #manArea{
+        margin-left: 50px;
+    }
+
+    #manArea , #wordArea , #keyboardArea,  #trueIcon, #falseIcon, #reset , #timer, #start {
+        zoom: 40%;
+    }
+
+    
+    
+
+}
+
+
+@media (max-width: 384px) {
+    #manArea{
+        margin-left: 50px;
+    }
+
+    #manArea , #wordArea , #keyboardArea,  #trueIcon, #falseIcon, #reset , #timer, #start {
+        zoom: 25%;
+    }
+
+
+.boardButtons {
+    font-weight: 900;
+}
+  
+    
+}

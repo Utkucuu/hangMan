@@ -1,7 +1,5 @@
 #leftPanel {
-    height: 758px;
-    border-right: 1px solid black;
-
+    background-color: #daebf0;
 }
 
 .btn {
@@ -37,17 +35,9 @@
     margin-left: 22rem;
 }
 
-
-
-/*Right Pannel*/
-
-
-/*Men and tree*/
-
 #manArea {
     position: relative;
     bottom: 80px;
-
 }
 
 #treeFooter {
@@ -200,7 +190,20 @@
 }
 
 
+@media (max-width: 1196px) {
+    #manArea{
+        margin-left: 50px;
+    }
 
+    /* #manArea{
+        zoom: 75%;
+    } */
+
+   
+    #wordArea{
+        zoom: 70%;
+    }
+}
 
 @media (max-width: 992px) {
     #manArea{
@@ -212,51 +215,78 @@
     } */
 
     #manArea , #wordArea , #keyboardArea , #trueIcon, #falseIcon, #reset , #timer, #start{
-        zoom: 70%;
+        zoom: 60%;
     }
     
 }
-
 
 @media (max-width: 768px) {
     #manArea{
         margin-left: 50px;
     }
 
-    #manArea , #wordArea , #keyboardArea , #trueIcon, #falseIcon, #reset , #timer, #start {
-        zoom: 55%;
+    /* #manArea{
+        zoom: 75%;
+    } */
+
+      #wordArea , #keyboardArea , #trueIcon, #falseIcon, #reset , #timer, #start{
+        zoom: 40%;
     }
     
 }
 
-@media (max-width: 512px) {
+@media (max-width: 502px) {
     #manArea{
         margin-left: 50px;
     }
 
-    #manArea , #wordArea , #keyboardArea,  #trueIcon, #falseIcon, #reset , #timer, #start {
+
+
+     #wordArea , #keyboardArea , #trueIcon, #falseIcon, #reset , #timer, #start{
         zoom: 40%;
     }
 
-    
-    
+    #disableDiv{
+        zoom: 85%;
+    }
 
 }
 
-
-@media (max-width: 384px) {
-    #manArea{
-        margin-left: 50px;
-    }
-
-    #manArea , #wordArea , #keyboardArea,  #trueIcon, #falseIcon, #reset , #timer, #start {
-        zoom: 25%;
-    }
-
-
-.boardButtons {
-    font-weight: 900;
-}
+@media (max-width: 386px) {
   
-    
+
+
+
+      #wordArea , #keyboardArea , #trueIcon, #falseIcon, #reset , #timer, #start{
+        zoom: 30%;
+    }
+
+
+
+
+    .boardButtons {
+
+    transition: all.10s;
+    background: #7d9faa;
+    border-radius: 10px;
+    box-shadow: 0 10px 0 0 #42646f, 0 15px 0 10px #001a24;
+    color: #fff;
+    display: block;
+    font-size: 30px;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 3px 0 #42646f;
+    width: 45px;
+  
+  
+    font-weight: 900;
+   
+
 }
+
+}
+
+
+

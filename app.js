@@ -61,6 +61,9 @@ function time() {
                                 if (timer.innerHTML == `00:00`) {
                                     clearInterval(time4)
                                     alert("süre doldu")
+                                    setTimeout (function () {
+                                        window.location.reload()
+                                      },2000)
                                 }
 
                             }, 1000)

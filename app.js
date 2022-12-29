@@ -92,7 +92,7 @@ startBtn.onclick = function () {
     time()
 
     function random() {
-        let list = ["ATATÜRK", "PENCERE", "LAZIMLIK", "DEFTER", "TEMİZLİK", "BAYRAK", "ARABA", "MASA", "SANDALYE", "ELA", "ALİ", "LİLA", "TRANSFER", "GÖZ", "SİM", "KOD", "KALEM", "KEMAN", "KEBAP", "PARA", "SÖZLEŞME", "TELEVİZYON", "ÇİM", "BİNEK", "İNEK", "ÇANTA", "HAYVAN", "KÖPEK",]
+        let list = ["ATATÜRK", "PENCERE", "GÜVERCİN", "DEFTER", "TEMİZLİK", "BAYRAK", "ARABA", "MASA", "SANDALYE", "ELA", "ALİ", "LİLA", "MÜZİSYEN", "GÖZ", "TIR", "KOD", "KALEM", "KEMAN", "KEBAP", "PARA", "SÖZLEŞME", "TELEVİZYON", "ÇİM", "DAİRE", "FARE", "ÇANTA", "HAYVAN", "KÖPEK",]
 
         var listIndex = (Math.floor(Math.random() * 28))
 
